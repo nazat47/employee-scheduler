@@ -1,6 +1,6 @@
 Setup instructions:
 - create a .env file on the root directory and add the following variables:
-          PO RT=3001 
+          PORT=3001 
           , NODE_ENV=development
           , DB_URL="your mongodb uri"
           , JWT_SECRET="anysecret"
