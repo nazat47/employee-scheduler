@@ -1,11 +1,11 @@
 Setup instructions:
 - create a .env file on the root directory and add the following variables-
-          PORT=3001 
-          NODE_ENV=development
-          DB_URL="your mongodb uri"
-          JWT_SECRET="anysecret"
-          ACCESS_TOKEN_EXPIRES_IN=900 
-          REFRESH_TOKEN_EXPIRES_DAYS=30
+          - PORT=3001 
+          - NODE_ENV=development
+          - DB_URL="your mongodb uri"
+          - JWT_SECRET="anysecret"
+          - ACCESS_TOKEN_EXPIRES_IN=900 
+          - REFRESH_TOKEN_EXPIRES_DAYS=30
 - in the terminal of the root directory, run 'npm install' and then 'npm run dev'
 - you are all set!
 
